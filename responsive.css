@@ -1,0 +1,90 @@
+@media screen and (max-width: 1130px) {
+    header{
+        position: relative;
+    }
+    
+    header .logo .fa-bars{
+        display: none;
+    }
+
+    .logo a {
+        padding-left: 0;
+    }
+
+    .sidebar{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+
+    .option-bar{
+        position: relative;
+        width: 100vw;
+        overflow-x: scroll;
+    }
+
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+
+
+    .content {
+        margin-top: 1%;
+    }
+
+    .option-liste li {
+        background-color: #dddddd52;
+        padding: 2px 5px;
+        border-radius: 10px;
+        font-size: 13px;
+        margin-right: 5%;
+    }
+    .option-liste {
+        padding-left: 1%;
+    }
+
+    .grille{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
+        margin-left: 0;
+        margin-top: 6%;
+    }
+
+    .image1 img{
+        width: 100%;
+    }
+
+    .ava img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 23px;
+        margin-right: 8px;
+    }
+
+    .grille h5{
+        margin-left: 13%;
+        margin-top: 0;
+    }
+
+
+    .grille p{
+        margin-top: 0;
+        font-size: 13px;
+        margin-left: 4%;
+    }
+    .grille .vue{
+        display: flex;
+        margin-top: -13px;
+    }
+
+    .grille .image1{
+        margin-bottom: 10%;
+    }
+}
