@@ -82,6 +82,7 @@
     .grille .vue{
         display: flex;
         margin-top: -13px;
+        margin-left: 0;
     }
 
     .grille .image1{
