@@ -1,4 +1,4 @@
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 650px) {
     header{
         position: relative;
     }
@@ -6,6 +6,11 @@
     header .logo .fa-bars{
         display: none;
     }
+
+    .icons > span:nth-child(1) {
+        margin-right: 0;
+    }
+
 
     .logo a {
         padding-left: 0;
@@ -88,4 +93,121 @@
     .grille .image1{
         margin-bottom: 10%;
     }
+}
+
+
+@media screen and (max-width: 1130px) and (min-width: 651px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 1% 2%;
+        position: fixed;
+        width: 100vw;
+        z-index: 10;
+    }
+
+    .fa-bars {
+        margin-top: -6px;
+    }   
+
+
+    .search-bar{
+        display: flex;
+        width: 45%;
+    }
+
+    form{
+        width: 100%;
+        display: flex;
+    }
+
+    .icons{
+        display: flex;
+        margin-right: 6%;
+    }
+
+
+    /*------ Partie Sidebar ----------*/
+    .sidebar {
+        width: 20%;
+        margin-top: 6%;
+    }
+
+    .accueil-liste {
+        padding-left: 15px;
+    }
+
+
+    .biblio-liste {
+        padding-left: 15px;
+    }
+    
+    .abonnement-liste {
+        padding-left: 30px;
+    }
+
+    .autre img{
+        margin-left: 0;
+    }
+    
+    .explorer-liste {
+        padding-left: 15px;
+    }
+    
+    .parametre-liste {
+        padding-left: 15px;
+    }
+
+
+    .copyright{
+        margin-bottom: 40%;
+    }
+
+
+    .content{
+        margin-top: 6%;
+    }
+    /*-------- Option bar -------*/
+
+    .option-bar{
+        background-color: white;
+        position: fixed;
+        width: 80%;
+        overflow-x: scroll;
+        margin-top: 1%;
+    }
+
+    .option-liste{
+        padding-left: 20px;
+    }
+
+    .option-liste li{
+        margin-right: 3%;
+        padding: 10px 26px 0px 26px;
+    }
+
+    /*---- Partie grille ------*/
+    .grille {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4%;
+        margin-top: 20%;
+    }
+
+    .image img {
+        width: 99%;
+    }
+
+    .grille img{
+        margin-left: 1%;
+    }
+
+    .ava img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 23px;
+        margin-right: 8px;
+    }
+
 }
